@@ -13,6 +13,7 @@
     "autoprefixer": "6.7.6",
     "babel-plugin-module-resolver": "2.5.0",
     "babel-plugin-wrap-in-js": "^1.1.0",
+    "bulma": "^0.4.2",
     "glob": "7.1.1",
     "next": "latest",
     "node-sass": "^4.4.0",
@@ -25,6 +26,7 @@
     "sass-loader": "^4.1.1"
   },
   "devDependencies": {
+    "extract-text-webpack-plugin": "^2.1.2",
     "now": "^3.1.0"
   }
 }

@@ -7,5 +7,23 @@ import stylesheet from 'styles/index.scss'
 export default () =>
   <div>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-    <p>ciao</p>
+
+	<div className="container is-fluid">
+	  <div className="notification">
+	    This container is <strong>fluid</strong>: it will have a 20px gap on either side, on any viewport size.
+	  </div>
+	</div>
+
+	<section className="hero">
+	  <div className="hero-body">
+	    <div className="container">
+	      <h1 className="title">
+	        Hero title
+	      </h1>
+	      <h2 className="subtitle">
+	        Hero subtitle
+	      </h2>
+	    </div>
+	  </div>
+	</section>
   </div>
